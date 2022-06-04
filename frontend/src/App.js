@@ -62,6 +62,7 @@ const ViewUserLoans = lazy(() => import("./views/admin/ViewUserLoans"));
 const UpdateUserStatus = lazy(() => import("./views/admin/UpdateUserStatus"));
 const UnpaidLoans = lazy(() => import("./views/admin/UnpaidLoans"));
 const ViewStatus = lazy(() => import("./views/admin/ViewStatus"));
+const Rewards = lazy(() => import("./views/admin/Rewards"));
 
 const App = () => {
 	useEffect(() => {
@@ -212,6 +213,11 @@ const App = () => {
 						<PrivateRoute exact path={ROUTES.UPDATESTATUS}>
 							<AdminRoute>
 								<UpdateUserStatus />
+							</AdminRoute>
+						</PrivateRoute>
+						<PrivateRoute exact path={ROUTES.REWARDS}>
+							<AdminRoute>
+								<Rewards />
 							</AdminRoute>
 						</PrivateRoute>
 					</Switch>

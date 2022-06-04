@@ -77,14 +77,14 @@ const AddBanks = () => {
 				>
 					<Typography
 						style={{
-							fontSize: "3.5rem",
+							fontSize: "3rem",
 							lineHeight: "none",
 							textAlign: "center",
 							marginBottom: "2rem",
 						}}
 						color="primary"
 					>
-						ADD NEW BANKS
+						ADD NEW BANK
 					</Typography>
 					<form onSubmit={onSubmit} className="form">
 						<Grid item xs={12}>

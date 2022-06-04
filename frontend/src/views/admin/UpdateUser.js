@@ -107,17 +107,19 @@ const UpdateUser = (props) => {
 							elevation={4}
 							style={{
 								padding: "4rem",
+								paddingTop: "3rem",
 								width: "80%",
 								minWidth: "40%",
-								backgroundColor: "#CFEBFD",
-								backgroundImage: `url(${Image})`,
+								backgroundColor: "white",
+								// backgroundImage: `url(${Image})`,
 								backgroundSize: "cover",
 								margin: "0 auto",
+								borderRadius: "8px",
 							}}
 						>
 							<Typography
 								style={{
-									fontSize: "3.5rem",
+									fontSize: "2.5rem",
 									lineHeight: "none",
 									textAlign: "center",
 									marginBottom: "2rem",

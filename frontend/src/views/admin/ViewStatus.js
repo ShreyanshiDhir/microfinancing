@@ -84,7 +84,7 @@ const ViewStatus = () => {
 												marginRight: "11%",
 											}}
 										>
-											{loanStatus.minimum_amount}
+											200{loanStatus.minimum_amount}
 										</span>
 									</Typography>
 									<hr
@@ -110,7 +110,7 @@ const ViewStatus = () => {
 												marginRight: "11%",
 											}}
 										>
-											{loanStatus.maximum_amount}
+											100{loanStatus.maximum_amount}
 										</span>
 									</Typography>
 									<hr
@@ -136,7 +136,7 @@ const ViewStatus = () => {
 												marginRight: "11%",
 											}}
 										>
-											{loanStatus.minimum_duration}
+											2{loanStatus.minimum_duration}
 										</span>
 									</Typography>
 									<hr
@@ -162,7 +162,7 @@ const ViewStatus = () => {
 												marginRight: "11%",
 											}}
 										>
-											{loanStatus.maximum_duration}
+											1{loanStatus.maximum_duration}
 										</span>
 									</Typography>
 									<hr

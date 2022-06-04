@@ -52,6 +52,10 @@ const ViewUsers = () => {
 		console.log(id);
 		history.push(`/admin/get-status-by-id/${id}`);
 	};
+	const handleClick4 = (event) => {
+		var id = event.target.value;
+		history.push(`/admin/rewards`);
+	};
 	useEffect(() => {
 		dispatch(getUsersList());
 	}, []);
@@ -261,7 +265,7 @@ const ViewUsers = () => {
 									<br></br>
 									<br></br>
 									<Button
-										onClick={handleClick}
+										onClick={handleClick4}
 										value={userr._id}
 										variant="contained"
 										style={{ width: "90%" }}

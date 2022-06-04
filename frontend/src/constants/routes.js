@@ -37,5 +37,6 @@ export const VIEWALLLOANS = `${ADMIN}/view-all-loans`;
 export const VIEWUNPAIDLOAN = `${ADMIN}/view-unpaid-loans`;
 export const UPDATESTATUS = `${ADMIN}/update-status/:id`;
 export const VIEWSTATUS = `${ADMIN}/get-status-by-id/:id`;
+export const REWARDS = `${ADMIN}/rewards`;
 
 // export const GRANTLOAN = `${ADMIN}/grant-loan/:id`;
