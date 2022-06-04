@@ -1,0 +1,30 @@
+
+.maindiv10{
+    background: rgb(41,92,252);
+    background-image: linear-gradient(124deg, rgba(41,92,252,0.9363095580028886) 0%, rgba(141,87,240,0.9167017148656338) 60%),url("./img-bubble.png");
+    background-size: auto;
+    min-height: 100vh;
+    min-width: 100%;
+    padding-top: 5.5rem;
+}
+
+.paynow{
+    display: inline-block;
+    color: rgb(141,87,240);
+    text-decoration: none;
+}
+
+.paynow::after{
+    
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: rgb(141,87,240);;
+    transition: width .3s;
+    
+}
+
+.paynow:hover::after{
+    width: 100%;
+}

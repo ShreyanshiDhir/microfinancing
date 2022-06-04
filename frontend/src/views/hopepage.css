@@ -1,0 +1,18 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	font-weight: bold;
+}
+
+body {
+	background-color: white;
+}
+
+.banner {
+	background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+}
