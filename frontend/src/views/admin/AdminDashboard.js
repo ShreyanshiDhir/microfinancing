@@ -88,7 +88,7 @@ const AdminDashboard = () => {
 		<Fragment>
 			<div className="maindiv">
 				<div className="frag">
-					<div className="body">THIS IS ADMIN DASHBOARD</div>
+					<div className="body">ADMIN DASHBOARD</div>
 				</div>
 				<div>
 					<Grid container spacing={0}>
@@ -193,7 +193,7 @@ const AdminDashboard = () => {
 											users
 												.slice(0)
 												.reverse()
-												.slice(0, 6)
+												.slice(0, 10)
 												.map((userr, index) => (
 													<StyledTableRow key={index}>
 														<StyledTableCell
