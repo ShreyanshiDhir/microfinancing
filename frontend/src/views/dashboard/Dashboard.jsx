@@ -95,7 +95,7 @@ const Dashboard = () => {
 		<Fragment>
 			<div className="maindiv">
 				<div className="frag">
-					<div className="body">THIS IS USER DASHBOARD</div>
+					<div className="body">USER DASHBOARD</div>
 				</div>
 				<div>
 					<Grid container spacing={0}>
